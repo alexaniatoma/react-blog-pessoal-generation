@@ -8,7 +8,6 @@ function Navbar() {
     const { handleLogout } = useContext(AuthContext)
 
     function logout() {
-        
         handleLogout()
         alert('O Usuário foi desconectado com sucesso!')
         navigate('/')
@@ -20,12 +19,14 @@ function Navbar() {
             			   bg-indigo-900 text-white'>
             
                 <div className="container flex justify-between text-lg">
-                    <Link to='/home' className= "text-2x1 font-bold">Blog Pessoal</Link>
-
+                    <Link to='/home' className="text-2x1 font-bold">Blog Pessoal</Link>
+                   
                     <div className='flex gap-4'>
                         Postagens
-                        Temas
-                        Cadastrar tema
+                        
+                        <Link to='/temas' className='hover:underline'>Temas</Link>
+                        <Link to='/cadastrartema' className='hover:underline'>Cadastrar Tema</Link>
+                        
                         Perfil 
                         <Link to='' onClick={logout} className='hover:underline'>Sair</Link>
                         
