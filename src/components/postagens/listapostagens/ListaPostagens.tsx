@@ -15,6 +15,7 @@ function ListaPostagens() {
 
     const { usuario, handleLogout } = useContext(AuthContext);
     const token = usuario.token;
+    console.log(usuario)
 
     async function buscarPostagens() {
         try {

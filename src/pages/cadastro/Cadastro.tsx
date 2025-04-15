@@ -106,7 +106,7 @@ function Cadastro() {
               name="foto"
               placeholder="Foto"
               className="border-2 border-slate-700 rounded p-2"
-              value = {usuario.foto}
+              value = {usuario.foto }
              onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
             />
           </div>

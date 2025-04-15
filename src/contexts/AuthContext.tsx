@@ -38,6 +38,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
             ToastAlerta("Os Dados do usuário estão inconsistentes!" , "erro")
         }
         setIsLoading(false)
+        
     }
 
     function handleLogout() {
