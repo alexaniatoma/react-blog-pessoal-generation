@@ -41,4 +41,4 @@ Git
 🌐 Acesso ao Projeto
 Frontend (Vercel): https://react-blog-pessoal-generation.vercel.app/
 
-Backend (Render): https://spring-projeto-blog-pessoal.onrender.com
+Backend (Render): https://spring-projeto-blog-pessoal.onrender.com (usuario: root@root.com senha: rootroot)
