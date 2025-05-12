@@ -1,54 +1,44 @@
-# React + TypeScript + Vite
+🌐 Blog Pessoal <br>
+Projeto Fullstack desenvolvido com Spring Boot, React, Tailwind CSS, integrando consumo de API, e com deploy realizado utilizando Render (backend) e Vercel (frontend).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Tecnologias Utilizadas
+Backend
+Java com Spring Boot
 
-Currently, two official plugins are available:
+Consumo de API REST externa
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Render para deploy
 
-## Expanding the ESLint configuration
+Frontend
+React.js
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Tailwind CSS para estilização
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Vercel para deploy
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Ferramentas de Apoio
+Insomnia para testes de requisições HTTP
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+📦 Funcionalidades
+ Exibição de dados consumidos via API
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+ Integração entre backend e frontend
+
+ Interface responsiva e moderna
+
+ Deploy em ambientes separados (frontend/backend)
+
+🔧 Como Executar Localmente
+Pré-requisitos
+Node.js
+
+Java 17+
+
+Maven
+
+Git
+
+🌐 Acesso ao Projeto
+Frontend (Vercel): https://react-blog-pessoal-generation.vercel.app/
+
+Backend (Render): https://spring-projeto-blog-pessoal.onrender.com
